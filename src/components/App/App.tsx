@@ -1,3 +1,12 @@
-export const App = () => {
-  return <h1>App components</h1>
+import { FC } from 'react'
+
+// Components 'n UI
+import { Header } from 'components'
+
+export const App: FC = () => {
+  return (
+    <>
+      <Header />
+    </>
+  )
 }

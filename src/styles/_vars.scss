@@ -1,0 +1,17 @@
+//? === Vars ===
+
+// Colors
+$primary-color: #57b8ff;
+
+$background-color-1: #000000;
+$background-color-2: #2a313c;
+
+// Mixins
+
+@mixin container {
+	max-width: 1440px;
+	width: 100%;
+
+	margin: 0 auto;
+	padding: 0 60px;
+}
